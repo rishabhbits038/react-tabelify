@@ -235,7 +235,7 @@ export default class Page extends React.Component {
                 selectedRows: {},
                 onRowClick: this.onRowClick,
                 resultsPerPage: 10,
-                // CustomRow: require('./CustomRow.js')
+                // CustomRow: require('./CustomRow.js'),
                 // CustomHeader: require('./CustomHeader')
                 // showHeader:false,
                 // showFooter: false

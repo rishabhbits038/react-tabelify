@@ -1,5 +1,4 @@
 var React = require('react');
-import SmartDropDownSelect from 'react-select';
 
 var DefaultFooter = React.createClass({
     getInitialState: function () {
