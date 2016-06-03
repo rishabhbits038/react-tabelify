@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SmartGrid from './react-tabelify/Tabelify.js'
+import SmartGrid from '../react-tabelify/Tabelify.js'
 
 var _ = require('underscore');
 
