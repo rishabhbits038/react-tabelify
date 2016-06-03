@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SmartGrid from '../react-tabelify/Tabelify.js'
+import Tabelify from '../'
 
 var _ = require('underscore');
 
@@ -256,7 +256,7 @@ export default class Page extends React.Component {
 
 	render(){
 		return <div>
-			<SmartGrid style={{margin:'30px'}} {...this.state.tableConfig}/>
+			<Tabelify style={{margin:'30px'}} {...this.state.tableConfig}/>
 		</div>
 	}
 }
