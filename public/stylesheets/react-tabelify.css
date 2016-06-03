@@ -1,0 +1,81 @@
+.gridParent .smartGridScroll {
+    overflow-x: auto;
+}
+
+.gridParent{
+}
+.gridParent .defaultCell{
+    padding: 8px 10px 8px 4px;
+    word-break: break-word;
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+    text-align: center;
+}
+
+.gridParent .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+.gridParent .defaultHeaderContainer {
+    border-bottom: 2px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.gridParent .checkbox-wrapper {
+    display: flex;
+    flex-basis: 100%;
+    }
+
+ .gridParent .defaultRow {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+.gridParent .header {
+    font-weight: bold;
+}
+
+.gridParent .defaultRowContainer {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+
+.gridParent .defaultFooter {
+    border: 1px solid #ccc;
+}
+
+
+.gridParent .pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 8px 20px;
+    border-radius: 4px;
+}
+
+.gridParent .pull-left {
+    float: left !important;
+}
+
+.gridParent .pull-right {
+    float: right !important;
+}
+
+.gridParent .checkboxContainer{
+        margin: 10px 0px 0px 10px;
+}
+
+.gridParent .grid-search {
+    width: 190px;
+    height: 21px;
+    font-size: 15px;
+    margin: 0 10px 12px 0px;
+    border: 1px solid #ddd;
+    padding: 5px 5px;
+}

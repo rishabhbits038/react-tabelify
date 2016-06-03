@@ -1,0 +1,191 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'style-loader',
+1 verbose cli   'autoprefixer-loader',
+1 verbose cli   'css-loader',
+1 verbose cli   'less-loader',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of /Users/11151/dev/smartgrid/package.json
+5 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/babel-core/package.json
+6 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/babel-loader/package.json
+7 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/babel-plugin-transform-runtime/package.json
+8 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/babel-polyfill/package.json
+9 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/babel-preset-es2015/package.json
+10 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/babel-preset-react/package.json
+11 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/babel-preset-stage-0/package.json
+12 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/babel-runtime/package.json
+13 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/body-parser/package.json
+14 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/cookie-parser/package.json
+15 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/debug/package.json
+16 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/express/package.json
+17 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/jade/package.json
+18 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/morgan/package.json
+19 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/react/package.json
+20 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/react-dom/package.json
+21 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/react-select/package.json
+22 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/serve-favicon/package.json
+23 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/underscore/package.json
+24 verbose installManyTop reading scoped package data from /Users/11151/dev/smartgrid/node_modules/webpack/package.json
+25 info package.json babel-polyfill@6.9.1 No description
+26 verbose readDependencies loading dependencies from /Users/11151/dev/smartgrid/package.json
+27 silly cache add args [ 'style-loader', null ]
+28 verbose cache add spec style-loader
+29 silly cache add args [ 'autoprefixer-loader', null ]
+30 verbose cache add spec autoprefixer-loader
+31 silly cache add args [ 'css-loader', null ]
+32 verbose cache add spec css-loader
+33 silly cache add args [ 'less-loader', null ]
+34 verbose cache add spec less-loader
+35 silly cache add parsed spec Result {
+35 silly cache add   raw: 'style-loader',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'style-loader',
+35 silly cache add   rawSpec: '',
+35 silly cache add   spec: 'latest',
+35 silly cache add   type: 'tag' }
+36 silly addNamed style-loader@latest
+37 verbose addNamed "latest" is being treated as a dist-tag for style-loader
+38 info addNameTag [ 'style-loader', 'latest' ]
+39 silly mapToRegistry name style-loader
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry http://registry.myntra.com:8000/
+42 silly mapToRegistry data Result {
+42 silly mapToRegistry   raw: 'style-loader',
+42 silly mapToRegistry   scope: null,
+42 silly mapToRegistry   name: 'style-loader',
+42 silly mapToRegistry   rawSpec: '',
+42 silly mapToRegistry   spec: 'latest',
+42 silly mapToRegistry   type: 'tag' }
+43 silly mapToRegistry uri http://registry.myntra.com:8000/style-loader
+44 verbose addNameTag registry:http://registry.myntra.com:8000/style-loader not in flight; fetching
+45 silly cache add parsed spec Result {
+45 silly cache add   raw: 'autoprefixer-loader',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'autoprefixer-loader',
+45 silly cache add   rawSpec: '',
+45 silly cache add   spec: 'latest',
+45 silly cache add   type: 'tag' }
+46 silly addNamed autoprefixer-loader@latest
+47 verbose addNamed "latest" is being treated as a dist-tag for autoprefixer-loader
+48 info addNameTag [ 'autoprefixer-loader', 'latest' ]
+49 silly mapToRegistry name autoprefixer-loader
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry http://registry.myntra.com:8000/
+52 silly mapToRegistry data Result {
+52 silly mapToRegistry   raw: 'autoprefixer-loader',
+52 silly mapToRegistry   scope: null,
+52 silly mapToRegistry   name: 'autoprefixer-loader',
+52 silly mapToRegistry   rawSpec: '',
+52 silly mapToRegistry   spec: 'latest',
+52 silly mapToRegistry   type: 'tag' }
+53 silly mapToRegistry uri http://registry.myntra.com:8000/autoprefixer-loader
+54 verbose addNameTag registry:http://registry.myntra.com:8000/autoprefixer-loader not in flight; fetching
+55 silly cache add parsed spec Result {
+55 silly cache add   raw: 'css-loader',
+55 silly cache add   scope: null,
+55 silly cache add   name: 'css-loader',
+55 silly cache add   rawSpec: '',
+55 silly cache add   spec: 'latest',
+55 silly cache add   type: 'tag' }
+56 silly addNamed css-loader@latest
+57 verbose addNamed "latest" is being treated as a dist-tag for css-loader
+58 info addNameTag [ 'css-loader', 'latest' ]
+59 silly mapToRegistry name css-loader
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry http://registry.myntra.com:8000/
+62 silly mapToRegistry data Result {
+62 silly mapToRegistry   raw: 'css-loader',
+62 silly mapToRegistry   scope: null,
+62 silly mapToRegistry   name: 'css-loader',
+62 silly mapToRegistry   rawSpec: '',
+62 silly mapToRegistry   spec: 'latest',
+62 silly mapToRegistry   type: 'tag' }
+63 silly mapToRegistry uri http://registry.myntra.com:8000/css-loader
+64 verbose addNameTag registry:http://registry.myntra.com:8000/css-loader not in flight; fetching
+65 silly cache add parsed spec Result {
+65 silly cache add   raw: 'less-loader',
+65 silly cache add   scope: null,
+65 silly cache add   name: 'less-loader',
+65 silly cache add   rawSpec: '',
+65 silly cache add   spec: 'latest',
+65 silly cache add   type: 'tag' }
+66 silly addNamed less-loader@latest
+67 verbose addNamed "latest" is being treated as a dist-tag for less-loader
+68 info addNameTag [ 'less-loader', 'latest' ]
+69 silly mapToRegistry name less-loader
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry http://registry.myntra.com:8000/
+72 silly mapToRegistry data Result {
+72 silly mapToRegistry   raw: 'less-loader',
+72 silly mapToRegistry   scope: null,
+72 silly mapToRegistry   name: 'less-loader',
+72 silly mapToRegistry   rawSpec: '',
+72 silly mapToRegistry   spec: 'latest',
+72 silly mapToRegistry   type: 'tag' }
+73 silly mapToRegistry uri http://registry.myntra.com:8000/less-loader
+74 verbose addNameTag registry:http://registry.myntra.com:8000/less-loader not in flight; fetching
+75 verbose request uri http://registry.myntra.com:8000/style-loader
+76 verbose request no auth needed
+77 info attempt registry request try #1 at 2:27:38 PM
+78 verbose request id a4e85a97be7fefa0
+79 http request GET http://registry.myntra.com:8000/style-loader
+80 verbose request uri http://registry.myntra.com:8000/autoprefixer-loader
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 2:27:38 PM
+83 http request GET http://registry.myntra.com:8000/autoprefixer-loader
+84 verbose request uri http://registry.myntra.com:8000/css-loader
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 2:27:38 PM
+87 http request GET http://registry.myntra.com:8000/css-loader
+88 verbose request uri http://registry.myntra.com:8000/less-loader
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 2:27:38 PM
+91 http request GET http://registry.myntra.com:8000/less-loader
+92 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 180.179.146.62:8000
+93 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 180.179.146.62:8000
+94 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 180.179.146.62:8000
+95 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 180.179.146.62:8000
+96 info attempt registry request try #2 at 2:29:03 PM
+97 http request GET http://registry.myntra.com:8000/css-loader
+98 info attempt registry request try #2 at 2:29:03 PM
+99 http request GET http://registry.myntra.com:8000/autoprefixer-loader
+100 info attempt registry request try #2 at 2:29:03 PM
+101 http request GET http://registry.myntra.com:8000/style-loader
+102 info attempt registry request try #2 at 2:29:03 PM
+103 http request GET http://registry.myntra.com:8000/less-loader
+104 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 180.179.146.62:8000
+105 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 180.179.146.62:8000
+106 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 180.179.146.62:8000
+107 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 180.179.146.62:8000
+108 info attempt registry request try #3 at 2:31:18 PM
+109 http request GET http://registry.myntra.com:8000/less-loader
+110 info attempt registry request try #3 at 2:31:18 PM
+111 http request GET http://registry.myntra.com:8000/style-loader
+112 info attempt registry request try #3 at 2:31:18 PM
+113 http request GET http://registry.myntra.com:8000/autoprefixer-loader
+114 info attempt registry request try #3 at 2:31:18 PM
+115 http request GET http://registry.myntra.com:8000/css-loader
+116 verbose stack Error: connect ETIMEDOUT 180.179.146.62:8000
+116 verbose stack     at Object.exports._errnoException (util.js:870:11)
+116 verbose stack     at exports._exceptionWithHostPort (util.js:893:20)
+116 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+117 verbose cwd /Users/11151/dev/smartgrid
+118 error Darwin 14.5.0
+119 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "style-loader" "autoprefixer-loader" "css-loader" "less-loader" "--save-dev"
+120 error node v4.4.4
+121 error npm  v2.15.1
+122 error code ETIMEDOUT
+123 error errno ETIMEDOUT
+124 error syscall connect
+125 error network connect ETIMEDOUT 180.179.146.62:8000
+125 error network This is most likely not a problem with npm itself
+125 error network and is related to network connectivity.
+125 error network In most cases you are behind a proxy or have bad network settings.
+125 error network
+125 error network If you are behind a proxy, please make sure that the
+125 error network 'proxy' config is set properly.  See: 'npm help config'
+126 verbose exit [ 1, true ]
