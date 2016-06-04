@@ -1,7 +1,6 @@
 {
-  "name": "smartgrid",
-  "version": "0.0.0",
-  "private": true,
+  "name": "react-tabelify",
+  "version": "2.0.1",
   "scripts": {
     "start": "node ./bin/www"
   },

@@ -1,9 +1,0 @@
-STEPS:
-
-
-npm install
-npm install webpack -g
-npm install webpack-dev-server -g
-npm start
-webpack-dev-server --progress --colors
-goto http://localhost:8080/webpack-dev-server/bundle and enable hot loading

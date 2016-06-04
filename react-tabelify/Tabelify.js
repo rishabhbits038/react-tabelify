@@ -40,14 +40,37 @@ var SmartGrid = React.createClass({
         })
     },
     sortDataOnColumn: function (data) {
+
         if (this.props.sortColumn === '')
             return data;
+        data.map((item, index)=>{
+            item['_index']=index;
+        })
         data.sort((a, b)=> {
             if (this.props.sortDirection === 'ASC') {
-                return a[this.props.sortColumn].toString().localeCompare(b[this.props.sortColumn].toString())>=0?1:-1;
+                let num = a[this.props.sortColumn].toString().localeCompare(b[this.props.sortColumn].toString());
+                if(num>0)
+                    return 1;
+                if(num <0)
+                    return -1;
+                if(a['_index']>b['_index'] )
+                    return 1;
+                else
+                    return -1
             }
             else {
-                return b[this.props.sortColumn].toString().localeCompare(a[this.props.sortColumn].toString())<=0?1:-1;
+                let num =  b[this.props.sortColumn].toString().localeCompare(a[this.props.sortColumn].toString());
+                if(num>0)
+                    return 1;
+                if(num <0)
+                    return -1;
+                console.log(a);
+                console.log(b);
+                console.log();
+                if(a['_index']>b['_index'] )
+                    return 1;
+                else
+                    return -1
             }
         })
         return data;
