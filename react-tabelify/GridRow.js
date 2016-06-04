@@ -20,7 +20,6 @@ var GridRow = React.createClass({
     render: function () {
         var checked = this.props.selectedRows[this.props.rowId] ? true : false;
         var Row = this.props.CustomRow ? this.props.CustomRow : DefaultRow;
-        //TODO : Depricate additionalRowProps
         return (
             <div className={'checkbox-wrapper ' + this.props.className + (checked ? ' checked' : '')}>
                  {this.props.showCheckbox &&
