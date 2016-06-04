@@ -23,8 +23,8 @@ Thus, data manipulation happens only at one place.
 #STEPS:
 * npm install 
 * npm install webpack -g 
+* webpack --progress --colors
 * npm start 
-* webpack --progress --colors 
 * goto http://localhost:3000/ to see the the page
 
 #Note: 
