@@ -1,4 +1,4 @@
-#Tabelify 
+# Tabelify 
 Tabelify is the one of the best data grid libraries for react. The sole reason to build this that there was no other library which was generic enough to cater our needs.
 So, we decided to build a library which is generic, highly customisable and easy to use.
 
