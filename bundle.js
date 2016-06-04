@@ -22397,8 +22397,9 @@
 	            var rowMatched = false;
 	            var columns = (0, _keys2.default)(row);
 	            for (var i = 0; i < columns.length; i++) {
+	                if (columns[i] === '_index') continue;
 	                var columnValue = row[columns[i]];
-	                var formattedValue = columnMetadata[i].formatter ? columnMetadata.formatter(columnValue).toString() : columnValue.toString();
+	                var formattedValue = columnMetadata[i].formatter ? columnMetadata[i].formatter(columnValue).toString() : columnValue.toString();
 	                if (typeof formattedValue === 'string' && formattedValue.toLowerCase().indexOf(text.trim().toLowerCase()) != -1) {
 	                    rowMatched = true;
 	                    break;
