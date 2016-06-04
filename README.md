@@ -1,5 +1,18 @@
 # Tabelify 
-Tabelify is the one of the best data grid libraries for react. The sole reason to build this that there was no other library which was generic enough to cater our needs.
+Tabelify is the one of the best data grid libraries for react. The sole reason to build this was that there was no other library which was generic enough to cater our needs. 
+
+# Features of Tabelify
+* Enable/disable Header, Footer. 
+* Provide Custom Header, Footer
+* Ability to change the view/style of the column just by passing a render function along with the columnMetaData of the column. The function takes in the data and returns the content to be rendered in the Column.
+* Provides rendering  a Custom Row instead of a default one. A custom row can be rendered just by passing customRow(a react component) as props to Tabelify. The Custom Row recieves all the data of the row as well as grid and it is rendered in place of the default row.
+* Provides default pagination.
+* Provides default local search on the grid.
+* Provides customisable page size.
+* Provides default pagination.
+* Provides selection of rows via chechbox which appears on the left of each row. This can be easily enabled/diabled by passing a prop showCheckbox:true/false.
+* Coulumn width can be adusted by passing a proprty flexBasis: 100px or flexBasis:40% to the columnMetadata od column.
+
 So, we decided to build a library which is generic, highly customisable and easy to use.
 
 [Live Demo](http://rishabhbits038.github.io/react-tabelify/)
@@ -8,15 +21,15 @@ Tabelify is an uncontrolled component. That means any change in the grid is prop
 Thus, data manipulation happens only at one place.
 
 #STEPS:
-npm install 
-npm install webpack -g 
-npm start webpack --progress --colors 
-goto http://localhost:3000/ to see the the page
+* npm install 
+* npm install webpack -g 
+* npm start webpack --progress --colors 
+* goto http://localhost:3000/ to see the the page
 
 #Note: 
 In case you are importing react-tabelify, do not forget the link the css file along with it.
 
-#For details on Tanbelify, Have a look at the blog : 
+#For details on Tabelify, Have a look at the blog : 
 https://medium.com/@rishabh.bits038/the-simplest-way-to-create-a-data-grid-in-react-ccdd4368ee7a#.r7h57mfnj
 
 #Working example:
