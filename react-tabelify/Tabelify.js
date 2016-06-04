@@ -93,8 +93,10 @@ var SmartGrid = React.createClass({
             var rowMatched = false;
             let columns = Object.keys(row);
             for(let i=0;i<columns.length;i++){
+                if(columns[i]==='_index')
+                    continue;
                 let columnValue = row[columns[i]];
-                let formattedValue = columnMetadata[i].formatter?columnMetadata.formatter(columnValue).toString():columnValue.toString();
+                let formattedValue = columnMetadata[i].formatter?columnMetadata[i].formatter(columnValue).toString():columnValue.toString();
                 if(typeof formattedValue === 'string' && formattedValue.toLowerCase().indexOf(text.trim().toLowerCase())!=-1){
                     rowMatched = true;
                     break;
